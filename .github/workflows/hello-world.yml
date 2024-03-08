@@ -1,0 +1,7 @@
+name: hello-world
+on:
+  workflow_dispatcher:
+
+jobs:
+  hello-world:
+    - run: "echo Hello World"
